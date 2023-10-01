@@ -18,6 +18,7 @@ class I18nextFramework extends Framework {
       ],
       none: [
         'react-i18next',
+        'svelte-i18next',
       ],
     },
   }
@@ -53,7 +54,7 @@ class I18nextFramework extends Framework {
     '{key}_two',
     '{key}_few',
     '{key}_many',
-    '{key}_other'
+    '{key}_other',
   ]
 
   refactorTemplates(keypath: string) {

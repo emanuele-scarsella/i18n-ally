@@ -814,6 +814,7 @@
               "ngx-translate",
               "i18next",
               "react-i18next",
+              "svelte-i18next",
               "i18next-shopify",
               "i18n-tag",
               "flutter",

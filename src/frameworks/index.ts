@@ -6,6 +6,7 @@ import FluentVueFramework from './fluent-vue'
 import ReactFramework from './react-intl'
 import I18nextFramework from './i18next'
 import ReactI18nextFramework from './react-i18next'
+import SvelteI18nextFramework from './i18next-svelte'
 import NextIntlFramework from './next-intl'
 import NextInternationalFramework from './next-international'
 import ShopifyI18nextFramework from './i18next-shopify'
@@ -51,6 +52,7 @@ export const frameworks: Framework[] = [
   new I18nextFramework(),
   new ShopifyI18nextFramework(),
   new ReactI18nextFramework(),
+  new SvelteI18nextFramework(),
   new NextIntlFramework(),
   new NextInternationalFramework(),
   new I18nTagFramework(),

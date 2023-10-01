@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Svelte with i18next get correct coverage report 1`] = `
+Object {
+  "allKeys": Array [
+    "pages.home.title",
+    "translation.foo.bar",
+    "translation.title",
+  ],
+  "emptyKeys": Array [],
+  "locale": "en",
+  "missing": 0,
+  "missingKeys": Array [],
+  "total": 3,
+  "translated": 3,
+  "translatedKeys": Array [
+    "pages.home.title",
+    "translation.foo.bar",
+    "translation.title",
+  ],
+}
+`;
+
+exports[`Svelte with i18next get correct coverage report 2`] = `
+Object {
+  "allKeys": Array [
+    "pages.home.title",
+    "translation.foo.bar",
+    "translation.title",
+  ],
+  "emptyKeys": Array [],
+  "locale": "de",
+  "missing": 0,
+  "missingKeys": Array [],
+  "total": 3,
+  "translated": 3,
+  "translatedKeys": Array [
+    "pages.home.title",
+    "translation.foo.bar",
+    "translation.title",
+  ],
+}
+`;
+
+exports[`Svelte with i18next get keys 1`] = `
+Array [
+  Object {
+    "end": 93,
+    "key": "title",
+    "quoted": true,
+    "start": 88,
+  },
+  Object {
+    "end": 201,
+    "key": "title",
+    "quoted": true,
+    "start": 196,
+  },
+  Object {
+    "end": 463,
+    "key": "pages.home.title",
+    "quoted": true,
+    "start": 447,
+  },
+  Object {
+    "end": 494,
+    "key": "foo.bar",
+    "quoted": true,
+    "start": 487,
+  },
+]
+`;
